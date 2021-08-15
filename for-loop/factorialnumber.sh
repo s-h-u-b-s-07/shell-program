@@ -6,6 +6,6 @@ A=1
 
 for(( number=1; number<=N; number++ ))
 do
-	factorial=$(($A**$number))
-	echo $factorial
+	A=$(($A*$number))
+	echo $A
 done
